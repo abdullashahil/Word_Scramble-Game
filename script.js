@@ -103,6 +103,7 @@ init();
 inputBox.addEventListener("click",()=>{
     bgAudio.volume=0.9
     bgAudio.play()
+    bgAudio.loop=true
 })
 
 refreshButton.addEventListener("click", ()=>{
